@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: local('TT Norms Pro Thin'), local('TT-Norms-Pro-Thin'),
+        url('../assets/fonts/TTNormsPro-Thin.woff2') format('woff2'),
+        url('../assets/fonts/TTNormsPro-Thin.woff') format('woff'),
+        url('../assets/fonts/TTNormsPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
