@@ -118,53 +118,7 @@ main {
   width: 100%;
 }
 
-main .block-1 {
-  width: 100%;
-  background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
-}
 
-main .block-1 .section_1 {
-  min-height: 800px;
-}
-
-main .block-1 .section_1 .container-fluid {
-  background: url(../assets/img/Frame2.png) no-repeat center bottom;
-}
-
-main .block-1 .section_1 .container_img {
-  height: 800px;
-  background: url(../assets/img/SymbolLongleg.png) no-repeat center bottom;
-}
-
-main .block-1 .section_1 .container_img .container_img_1 {
-  height: 800px;
-}
-
-main .block-1 .section_1 .container_img .container_img_1 h1 {
-  font-size: 38px;
-  text-align: center;
-  margin-top: 358px;
-}
-
-main .block-1 .section_1 .container_img .container_img_1 .a_box {
-  width: 100%;
-  height: 200px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(16.67%, rgba(50, 50, 100, 0)), to(#323264));
-  background: linear-gradient(180deg, rgba(50, 50, 100, 0) 16.67%, #323264 100%);
-}
-
-main .block-1 .section_1 .container_img .container_img_1 .a_box a {
-  margin-bottom: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  width: 42px;
-  height: 42px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
-  text-align: center;
-  background: url(../assets/img/Vector2.png) no-repeat center;
-}
 
 main .block-2 {
   width: 100%;
@@ -245,7 +199,7 @@ main .block-2_1 .nav-pills .nav-link.active, main .block-2_1 .nav-pills .show > 
 }
 
 main .text_section_2 {
-  margin: 80px auto 0;
+  margin: 190px auto 0;
 }
 
 main .text_section_2 .a_text {
@@ -449,6 +403,7 @@ main .box_text_3 {
   width: 93%;
   margin: 0 auto;
   padding-top: 40px;
+
 }
 
 .section_3_1 .angry-grid {
@@ -622,7 +577,7 @@ main .box_text_3 {
 }
 
 .section_3_2 {
-  width: 93%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -639,6 +594,7 @@ main .box_text_3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 30px;
 }
 
 .section_3_2 .box-grid {

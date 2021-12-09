@@ -20,7 +20,7 @@
 }
 .fx-w{
   display: flex;
-  flex: wrap;
+  flex-wrap: wrap;
 }
 .fx-column{
   display: flex;
