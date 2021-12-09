@@ -447,6 +447,7 @@ main .box_text_3 {
 .section_3_1 {
   width: 93%;
   margin: 0 auto;
+  padding-top: 40px;
 }
 
 .section_3_1 .angry-grid {
@@ -470,6 +471,7 @@ main .box_text_3 {
   grid-row-end: 2;
   grid-column-end: 3;
   background: #F5F5FA;
+  border-radius: 12px 0px 0px 0px;
 }
 
 .section_3_1 #item-0 .item-0-p {
@@ -518,6 +520,7 @@ main .box_text_3 {
   grid-column-end: 2;
   background: #F5F5FA;
   padding: 0 20px;
+  border-radius: 0px 0px 0px 12px;
 }
 
 .section_3_1 #item-2 .item-2-p {
@@ -584,6 +587,7 @@ main .box_text_3 {
   grid-column-end: 6;
   background: #F5F5FA;
   padding: 57px 20px 0;
+  border-radius: 0px 12px 0px 0px;
 }
 
 .section_3_1 #item-5 .item-5-p {
@@ -606,6 +610,7 @@ main .box_text_3 {
   grid-column-end: 6;
   background: #F5F5FA;
   padding: 57px 20px 0;
+  border-radius: 0px 0px 12px 0px;
 }
 
 .section_3_1 #item-6 .item-6-p {
