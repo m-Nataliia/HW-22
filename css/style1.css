@@ -1,0 +1,419 @@
+@font-face {
+  font-family: 'TT Norms Pro';
+  src: local("TT Norms Pro Thin"), local("TT-Norms-Pro-Thin"), url("../assets/fonts/TTNormsPro-Thin.woff2") format("woff2"), url("../assets/fonts/TTNormsPro-Thin.woff") format("woff"), url("../assets/fonts/TTNormsPro-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url("../assets/fonts/TTNorms-Bold.eot");
+  src: url("../assets/fonts/TTNorms-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/TTNorms-Bold.woff2") format("woff2"), url("../assets/fonts/TTNorms-Bold.woff") format("woff"), url("../assets/fonts/TTNorms-Bold.ttf") format("truetype"), url("../assets/fonts/TTNorms-Bold.svg#TTNorms-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Norms normal';
+  src: url("../assets/fonts/TTNorms-Regular.eot");
+  src: url("../assets/fonts/TTNorms-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/TTNorms-Regular.woff2") format("woff2"), url("../assets/fonts/TTNorms-Regular.woff") format("woff"), url("../assets/fonts/TTNorms-Regular.ttf") format("truetype"), url("../assets/fonts/TTNorms-Regular.svg#TTNorms-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+*, html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  font-family: 'TT Norms normal';
+}
+
+
+
+
+
+.wrapper {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  top: 0;
+  padding: 50px 60px 0;
+  position: fixed;
+  
+  z-index: 2;
+}
+
+header .logo-container {
+  width: 50%;
+}
+
+header .navigation-container {
+  width: 50%;
+  position: relative;
+}
+
+.btn-outline-primary:hover {
+  background: none;
+}
+
+.btn-outline-primary {
+  border: none;
+  width: 29px;
+  height: 24px;
+  font-size: 12px;
+  padding: 0;
+  padding-top: 3px;
+  margin: 0;
+  color: #B3B3BA;
+}
+
+.btn-check:checked + .btn-outline-primary {
+  background-color: #F0145A;
+  border-color: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.btn-group > .btn-group:not(:last-child) > .btn, .btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-radius: 8px;
+}
+
+.btn-group > .btn:nth-child(n+3), .btn-group > :not(.btn-check) + .btn {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-radius: 8px;
+}
+
+.navbar {
+  margin-top: 19px;
+  background: gainsboro;
+}
+
+.navbar .menu_ul .menu_li {
+  margin-left: 15px;
+  display: block;
+}
+
+.navbar .menu_ul .menu_li a {
+  font-size: 18px;
+  line-height: 21px;
+}
+.a_LOGO{
+  color: #323264;
+  font-size: 38px;
+line-height: 45px;
+text-decoration: none;
+font-family: "TT Norms normal"; 
+}
+.span_logo{
+  color: #B3B3BA;
+  
+}
+.logo_a{
+  color: #B3B3BA;
+  font-family: "TT Norms";
+  text-decoration: none 
+
+}
+.nav-link{
+font-size: 18px;
+line-height: 21px;
+color: #24A3FF !important;
+
+}
+.active_1{
+  color: #F0145A !important;
+  border-bottom: 2px solid #F0145A;
+  padding-left: 0!important;
+  padding-right: 0!important;
+  margin-right: 8px;
+
+  
+}
+.block_1{
+  min-height: 677px;
+  width: 100%;
+}
+.section-1{
+  width:80%;
+  margin: 0 auto;
+  padding-top: 197px;
+  min-height: 677px;
+}
+.content_1{
+  width: 60%;
+  padding-right: 42px;
+}
+.content_2{
+  width: 40%;
+  height: 315px;
+  border-left: 4px solid #E6E6F0;
+  padding-left: 20px;
+
+
+}
+h3 {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f0145a), to(#ef8080));
+  background-image: linear-gradient(#f0145a, #ef8080);
+  font-size: 42px;
+  line-height: 50px;
+  font-family: 'TT Norms';
+}
+.span_content_2{
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f0145a), to(#ef8080));
+  background-image: linear-gradient(#f0145a, #ef8080);
+  font-size: 36px;
+line-height: 42px;
+  font-family: 'TT Norms';
+  padding-left: 10px;
+}
+.p_content_2{
+  font-size: 18px;
+line-height: 21px;
+color: #323264;
+margin-top: 5px;
+}
+.p_content_1{
+  font-size: 21px;
+line-height: 30px;
+color: #000000;
+}
+.section_2{
+  width: 100%;
+  height: 438px;
+  background: url(../assets/img/image_2.png);
+}
+.span_section_2{
+  font-size: 96px;
+line-height: 113px;
+letter-spacing: 63px;
+text-transform: uppercase;
+color: #FFFFFF;
+font-family: "TT Norms";
+opacity: 0.8;
+text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+}
+.section-3{
+  width:80%;
+  margin: 0 auto;
+  padding-top: 197px;
+  min-height: 677px;
+}
+.content_3{
+  width: 60%;
+  padding-right: 42px;
+}
+.content_4{
+  width: 40%;
+  padding-right: 42px;
+  border: none;
+}
+.block_3{
+  width: 100%;
+  height: 260px; 
+  background: #F5F5FA;
+}
+.section_4{
+ height: 260px; 
+ width: 93%;
+ margin: 0 auto;
+ 
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  display: none;
+}
+
+.owl-item {
+  height: 109px;
+  background: #F5F5FA;
+  border-radius: 12px;
+}
+
+.img_owl {
+  width: 35%;
+  height: 501px;
+}
+
+.img_owl img {
+  width: 100%;
+  height: 100%;
+}
+
+.text_owl {
+  width: 65%;
+  padding: 40px 40px 173px 40px;
+}
+
+.text_owl h3 {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f0145a), to(#ef8080));
+  background-image: linear-gradient(#f0145a, #ef8080);
+  font-size: 42px;
+  line-height: 50px;
+  font-family: 'TT Norms';
+}
+
+.text_owl .a_text_1 {
+  font-size: 14px;
+  line-height: 17px;
+  color: #24A3FF;
+  font-family: 'TT Norms';
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.text_owl .a_text_1::after {
+  content: url(../assets/img/Vector3.png);
+}
+
+.text_owl .a_text_1 .span_1 {
+  font-size: 18px;
+  line-height: 21px;
+  color: #B3B3BA;
+}
+
+.text_owl .a_text_1 .span_2 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #B3B3BA;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #24A3FF;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background: #d3edff;
+}
+.owl-item .active{
+  width: 25% !important;
+}
+.img_owl{
+  width: 100%;
+}
+.img_owl{
+width: 80px;
+height: 50px;
+}
+.owl-item{
+  background: white;
+}
+.owl-carousel{
+  padding-top: 30px;
+}
+.span_block_3 {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+  font-family: 'TT Norms';
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+}
+.block_5 {
+  height: 151px;
+  width: 100%;
+  z-index: 3;
+  position: relative;
+  background: #F5F5FA;
+  border-radius: 0px 0px 12px 12px;
+}
+
+footer {
+  width: 93%;
+  height: 151px;
+  margin: 0 auto;
+  padding: 30px 0 40px;
+}
+
+footer .footer_box_1 {
+  width: 35%;
+  height: 79px;
+}
+
+footer .footer_box_1 span {
+  font-size: 16px;
+  line-height: 19px;
+  font-family: 'TT Norms normal';
+  color: #323264;
+}
+
+footer .footer_box_1 a {
+  font-size: 16px;
+  line-height: 19px;
+  font-family: 'TT Norms normal';
+  color: #323264;
+}
+
+footer .footer_box_2 {
+  width: 25%;
+}
+
+footer .footer_box_2 span {
+  color: #B3B3BA;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: 'TT Norms normal';
+}
+
+.footer_text {
+  color: #24A3FF !important;
+  text-decoration: none;
+  font-family: 'TT Norms';
+  font-size: 12px !important;
+  line-height: 14px !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.box_footer {
+  width: 95%;
+}
+
+.box_footer .footer_text_1 {
+  color: #24A3FF !important;
+  text-decoration: none;
+  font-family: 'TT Norms';
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.box_footer a {
+  font-family: "TT Norms" !important;
+  text-decoration: none;
+}
+
+.text_content_b4 {
+  padding-top: 35px;
+}
