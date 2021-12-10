@@ -75,3 +75,14 @@
   flex-direction: column;
   justify-content: space-around;
 }
+.fx-st{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.fx-column-jc-ai{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center
+}

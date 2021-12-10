@@ -252,7 +252,7 @@ margin: 0 auto;
 	color: transparent;    
 	-webkit-background-clip: text;
 	background-clip: text;
-	background-image: linear-gradient(rgba(239, 128, 128, 1), rgba(240, 20, 90, 1));
+	background-image: linear-gradient( to right, rgba(239, 128, 128, 1), rgba(240, 20, 90, 1));
   font-size: 42px;
   line-height: 50px;
   font-family: 'TT Norms';
@@ -284,7 +284,7 @@ color: #FFFFFF;
   color: transparent;    
 	-webkit-background-clip: text;
 	background-clip: text;
-	background-image: linear-gradient(rgba(240, 20, 90, 1), rgba(239, 128, 128, 1));
+	background-image: linear-gradient( to right , rgba(240, 20, 90, 1), rgba(239, 128, 128, 1));
   font-size: 42px;
   line-height: 50px;
   font-family: 'TT Norms';
@@ -393,8 +393,8 @@ border-radius: 0px 0px 12px 12px;
   border-radius: 12px;
 }
 .img_owl{
-  width: 35%;
-  height: 501px;
+  width: 414px;
+  height: 500px;
   img{
     width: 100%;
     height: 100%;
@@ -424,16 +424,11 @@ border-radius: 0px 0px 12px 12px;
       content: url(../assets/img/Vector3.png) ;
       
     }
-    .span_1{
-      font-size: 18px;
-      line-height: 21px;
-      color: #B3B3BA;
-     
-    }
+  
     .span_2{
       font-size: 16px;
       line-height: 22px;
-      color: #B3B3BA;
+      color: #B3B3BA ;
     }
    }
 }
@@ -819,6 +814,7 @@ margin-top: 10px;
   .box_b_img{
     img{
       width: 100%;
+      height: 233px;
     }
   }
   .content_box_b_1{
@@ -1075,3 +1071,10 @@ line-height: 19px;
   padding-top: 35px;
 }
 
+.a_11{
+  font-size: 18px;
+  line-height: 21px;
+  color: #B3B3BA !important;
+  text-decoration: none;
+ 
+}

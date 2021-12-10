@@ -49,11 +49,11 @@ header {
   z-index: 2;
   background: white;
   opacity: .85;
-
 }
 
 header .logo-container {
   width: 50%;
+
 }
 
 header .navigation-container {
@@ -123,15 +123,19 @@ font-family: "TT Norms normal";
   
 }
 .logo_a{
-  color: #B3B3BA;
-  font-family: "TT Norms";
-  text-decoration: none 
+  font-size: 21px;
+  line-height: 30px;
+  color: #46466E;
+  font-family: "TT Norms normal";
+  text-decoration: none;
+  width: 100%;
 
 }
 .nav-link{
 font-size: 18px;
 line-height: 21px;
 color: #24A3FF !important;
+
 
 }
 .active_1{
@@ -144,207 +148,153 @@ color: #24A3FF !important;
 
   
 }
+
+
 .block_1{
-  min-height: 677px;
+  min-height: 853px;
   width: 100%;
 }
-.section-1{
-  width:80%;
+.section{
+  width:75%;
+  min-height: 853px;
   margin: 0 auto;
+  padding-top: 177px;
   padding-top: 197px;
-  min-height: 677px;
-}
-.content_1{
-  width: 60%;
-  padding-right: 42px;
-}
-.content_2{
-  width: 40%;
-  height: 315px;
-  border-left: 4px solid #E6E6F0;
-  padding-left: 20px;
-
 
 }
-h3 {
+
+h4 {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f0145a), to(#ef8080));
   background-image: linear-gradient(#f0145a, #ef8080);
-  font-size: 42px;
-  line-height: 50px;
+  font-size: 32px;
+  line-height: 38px;
   font-family: 'TT Norms';
+  padding: 20px;
+  
+  
 }
-.span_content_2{
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f0145a), to(#ef8080));
-  background-image: linear-gradient(#f0145a, #ef8080);
-  font-size: 36px;
-line-height: 42px;
-  font-family: 'TT Norms';
-  padding-left: 10px;
+.logo_a_1{
+  font-size: 16px;
+line-height: 19px;
+text-align: right;
+color: #B3B3BA;
+font-family: 'TT Norms';
+text-decoration: none;
 }
-.p_content_2{
-  font-size: 18px;
-line-height: 21px;
-color: #323264;
-margin-top: 5px;
+.a_imf_fc{
+  font-size: 12px;
+line-height: 16px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #24A3FF;
+text-decoration: none;
+
 }
-.p_content_1{
+.a_imf_fc::before{
+content: url(../assets/img/Vector10_1.png);
+width: 32px;
+height: 32px;
+margin-right: 10px;
+}
+.imf_1{
+  height: 298px;
+
+}
+.a_block_1{
+  font-size: 21px;
+  line-height: 30px;
+  color: #24A3FF; 
+  text-decoration: none;
+  margin-top: 5px;
+  
+  
+}
+.border_imf{
+  border-top: 4px solid #E6E6F0;
+  padding-top: 40px;
+  border-bottom: 4px solid #E6E6F0;
+  padding-bottom: 40px;
+  height: 160px;
+
+}
+.border_imf_1{
+width: 60%;
+height: 80px;
+
+
+}
+.p_imf_1{
   font-size: 21px;
 line-height: 30px;
-color: #000000;
+color: #323264;
+margin: 0;
 }
-.section_2{
-  width: 100%;
-  height: 438px;
-  background: url(../assets/img/image_2.png);
-background-size: 100%;
+.box_send{
+  height: 576px;
+  background: #F5F5FA;
+border-radius: 12px;
+
+
+  
+
 }
-.span_section_2{
-  font-size: 96px;
-line-height: 113px;
-letter-spacing: 63px;
+.textarea{
+  height: 180px;
+}
+.span{
+  padding-left: 30px;
+  font-size: 14px;
+line-height: 17px;
+letter-spacing: 1px;
 text-transform: uppercase;
-color: #FFFFFF;
-font-family: "TT Norms";
-opacity: 0.8;
-text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+color: #B3B3BA;
 }
-.section-3{
-  width:80%;
+.inm_content_1{
+  width: 50%;
+  
+}
+.content_1{
+  width: 100%;
+}
+.inm_content_2{
+  width: 50%;
+  
+}
+.input{
+  width: 90%;
   margin: 0 auto;
-  padding-top: 197px;
-  min-height: 677px;
+  border: none!important;
 }
-.content_3{
-  width: 60%;
-  padding-right: 42px;
-}
-.content_4{
-  width: 40%;
-  padding-right: 42px;
-  border: none;
-}
-.block_3{
-  width: 100%;
-  height: 260px; 
-  background: #F5F5FA;
-}
-.section_4{
- height: 260px; 
- width: 93%;
- margin: 0 auto;
- 
-}
-
-.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
-  background: 0 0;
-  color: inherit;
-  border: none;
-  padding: 0 !important;
-  font: inherit;
-  display: none;
-}
-
-.owl-item {
-  height: 109px;
-  background: #F5F5FA;
-  border-radius: 12px;
-}
-
-.img_owl {
-  width: 35%;
-  height: 501px;
-}
-
-.img_owl img {
-  width: 100%;
-  height: 100%;
-}
-
-.text_owl {
-  width: 65%;
-  padding: 40px 40px 173px 40px;
-}
-
-.text_owl h3 {
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f0145a), to(#ef8080));
-  background-image: linear-gradient(#f0145a, #ef8080);
-  font-size: 42px;
-  line-height: 50px;
-  font-family: 'TT Norms';
-}
-
-.text_owl .a_text_1 {
-  font-size: 14px;
-  line-height: 17px;
-  color: #24A3FF;
-  font-family: 'TT Norms';
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.text_owl .a_text_1::after {
-  content: url(../assets/img/Vector3.png);
-}
-
-.text_owl .a_text_1 .span_1 {
+.input_1{
+  height: 47px;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 26px;
   color: #B3B3BA;
-}
 
-.text_owl .a_text_1 .span_2 {
-  font-size: 16px;
-  line-height: 22px;
-  color: #B3B3BA;
-}
 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+}
+.form-control{
+  border: none!important;
+}
+.button_1{
   background: #24A3FF;
+box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+border-radius: 12px;
+padding: 16px 17px;
+width: 250px;
+height:50px;
+margin: 20px;
+border: none;
+color: #fff;
+}
+.block_2{
+  width: 100%;
+
 }
 
-.owl-theme .owl-dots .owl-dot span {
-  background: #d3edff;
-}
-.owl-item .active{
-  width: 25% !important;
-}
-.img_owl{
-  width: 100%;
-}
-.img_owl{
-width: 80px;
-height: 50px;
-}
-.owl-item{
-  background: white;
-}
-.owl-carousel{
-  padding-top: 30px;
-}
-.span_block_3 {
-  font-size: 14px;
-  line-height: 17px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #323264;
-  font-family: 'TT Norms';
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 30px;
-}
 .block_5 {
   height: 151px;
   width: 100%;
@@ -407,7 +357,7 @@ footer .footer_box_2 span {
 
 .box_footer .footer_text_1 {
   color: #24A3FF !important;
-  text-decoration: none;
+  text-decoration: none !important;
   font-family: 'TT Norms';
   font-size: 16px;
   line-height: 19px;

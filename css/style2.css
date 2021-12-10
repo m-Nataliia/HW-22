@@ -50,7 +50,7 @@ header {
   top: 0;
   opacity: .65;
   position: fixed;
-  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, );
+  background: linear-gradient(1722.01deg, #323264 14.33%, #323264 82.39%, #7A425E 100%);
   z-index: 2;
 }
 
@@ -221,8 +221,7 @@ main .text_section_2 h3 {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f0145a), to(#ef8080));
-  background-image: linear-gradient(#f0145a, #ef8080);
+  background-image: linear-gradient( to left, rgba(239, 128, 128, 1), rgba(240, 20, 90, 1));
   font-size: 42px;
   line-height: 50px;
   font-family: 'TT Norms';
