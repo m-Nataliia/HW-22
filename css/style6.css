@@ -135,7 +135,7 @@ main .block-2 {
 }
 
  .block-2_1 .section_2 {
-  width: 65%;
+  width: 80%;
   min-height: 1146px;
   margin: 0 auto;
   border-radius: 0px 0px 12px 0px;
@@ -178,14 +178,39 @@ border: none;
 color: #FFFFFF;
 }
 .box_1{
-  height: 472px;
+  width: 75%;
+  height: 552px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  
 }
 .p_box_2::before{
   content: url(../assets/img/Dotseparator1.png);
   margin-right: 8px;
 }
-
-
+.content_box_2_1{
+  width: 45%;
+}
+.content_box_2_2{
+  width: 45%;
+}
+.box_2_1{
+  width: 100%;
+  font-size: 18px;
+line-height: 26px;
+color: #FFFFFF;
+}
+.box_2{
+  border-top: 4px solid #FFFFFF;
+  height: 347px;
+}
+.span_box_2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  line-height: 28px;
+color: #FFFFFF;
+}
 
 
 
@@ -303,6 +328,7 @@ color: #FFFFFF;
 
 .section_3_1 {
   width: 93%;
+  height: 533px;
   margin: 0 auto;
   padding-top: 40px;
 
@@ -499,64 +525,6 @@ color: #FFFFFF;
   margin-top: 30px;
 }
 
-.section_3_2 .box-grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 120px 120px 120px;
-      grid-template-rows: 120px 120px 120px;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 0px;
-  margin-top: 30px;
-}
-
-.section_3_2 #item-0_0 {
-  background: #1C4280;
-}
-
-.section_3_2 #item-1_1 {
-  background: #143646;
-}
-
-.section_3_2 #item-2_2 {
-  background: #F48B30;
-}
-
-.section_3_2 #item-3_3 {
-  background: #9E4DC3;
-}
-
-.section_3_2 #item-4_4 {
-  background: #FD9339;
-}
-
-.section_3_2 #item-5_5 {
-  background: #E2E2E4;
-}
-
-.section_3_2 #item-6_6 {
-  background: #C71C36;
-}
-
-.section_3_2 #item-7_7 {
-  background: #DCF3F9;
-}
-
-.section_3_2 #item-8_8 {
-  background: #EAEAEA;
-}
-
-.section_3_2 #item-9_9 {
-  background: #282240;
-}
-
-.section_3_2 #item-10_10 {
-  background: #1D4568;
-}
-
-.section_3_2 #item-11_11 {
-  background: #000000;
-}
 
 .block_4 {
   width: 100%;
